@@ -1,13 +1,26 @@
-![MIKES DATA WORK GIT REPO](https://raw.githubusercontent.com/mikesdatawork/images/master/git_mikes_data_work_banner_01.png "Mikes Data Work")        # Quickly Find The SQL Database Size
-**Post Date: April 9, 2014**        ## Contents    - [About Process](##About-Process)  - [SQL Logic](#SQL-Logic)  - [Build Info](#Build-Info)  - [Author](#Author)  - [License](#License)       ## About-Process    <div>  
+![MIKES DATA WORK GIT REPO](https://raw.githubusercontent.com/mikesdatawork/images/master/git_mikes_data_work_banner_01.png "Mikes Data Work")        
+
+# Quickly Find The SQL Database Size
+**Post Date: April 9, 2014**        
+
+## Contents    
+- [About Process](##About-Process)  
+- [SQL Logic](#SQL-Logic)  
+- [Build Info](#Build-Info)  
+- [Author](#Author)  
+- [License](#License)      
+
+## About-Process    
+
+<div>  
 Quickly find the Database size by running sp_helpdb
+  
 Example:
 ---
 ## SQL-Logic
 ```SQL
 exec master..sp_helpdb 'MyDB'
 ```
-
 
 [![WorksEveryTime](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://shitday.de/)
 
@@ -22,10 +35,6 @@ exec master..sp_helpdb 'MyDB'
 [![Gist](https://img.shields.io/badge/Gist-MikesDataWork-<COLOR>.svg)](https://gist.github.com/mikesdatawork)
 [![Twitter](https://img.shields.io/badge/Twitter-MikesDataWork-<COLOR>.svg)](https://twitter.com/mikesdatawork)
 [![Wordpress](https://img.shields.io/badge/Wordpress-MikesDataWork-<COLOR>.svg)](https://mikesdatawork.wordpress.com/)
-
-
-
-
 
 ---
 ## License
